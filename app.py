@@ -7,7 +7,7 @@ from pathlib import Path
 import streamlit as st
 
 st.set_page_config(
-    page_title="Portal de Proyectos | TPZ",
+    page_title="Portal de Gestión de Reportes | TPZ",
     page_icon="🌐",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -113,7 +113,7 @@ st.markdown(
     {''.join(particulas)}
     <header class="portal-header">{logo_html}</header>
     <main class="portal-main">
-        <h1>Bienvenido al portal de proyectos</h1>
+        <h1>Bienvenido al Portal de Gestión de Reportes</h1>
         <p class="intro">Selecciona el proyecto al que deseas ingresar para continuar con tus reportes y herramientas de trabajo.</p>
         <section class="project-grid">
             <article class="project-card">
