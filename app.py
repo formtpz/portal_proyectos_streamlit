@@ -14,9 +14,11 @@ if fondo.is_file():
         .stApp {{
             background-image: linear-gradient(rgba(10, 20, 35, 0.48), rgba(10, 20, 35, 0.62)),
                               url("data:image/webp;base64,{imagen_base64}");
-            background-size: cover;
+            background-size: min(75vw, 1000px) auto;
             background-position: center center;
             background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #101b2a;
         }}
         .stApp h1, .stApp h2, .stApp h3, .stApp p,
         .stApp [data-testid="stCaptionContainer"] {{
