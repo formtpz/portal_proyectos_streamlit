@@ -119,12 +119,12 @@ st.markdown(
             <article class="project-card">
                 <div class="project-heading"><span class="project-icon">PE</span><h2>Proyecto Perú</h2></div>
                 <p>Accede al sistema de gestión, reportes y seguimiento del proyecto Perú.</p>
-                <a class="project-link" href="https://tpzperu-6pbksbwa4qetjw2mkphmku.streamlit.app/" target="_blank" rel="noopener noreferrer">Ingresar a Perú ↗</a>
+                <a class="project-link" href="https://tpzperu-6pbksbwa4qetjw2mkphmku.streamlit.app/" target="_self">Ingresar a Perú ↗</a>
             </article>
             <article class="project-card">
                 <div class="project-heading"><span class="project-icon">IT</span><h2>Proyecto Italia</h2></div>
                 <p>Accede al sistema de gestión, reportes y seguimiento del proyecto Italia.</p>
-                <a class="project-link" href="https://proyecto-italia.streamlit.app/" target="_blank" rel="noopener noreferrer">Ingresar a Italia ↗</a>
+                <a class="project-link" href="https://proyecto-italia.streamlit.app/" target="_self">Ingresar a Italia ↗</a>
             </article>
         </section>
     </main>
