@@ -35,7 +35,11 @@ html, body, [data-testid="stAppViewContainer"], .stApp {
     background: #fcfcfd !important;
     color: #263142 !important;
 }
-[data-testid="stHeader"] { background: transparent !important; }
+[data-testid="stHeader"], [data-testid="stToolbar"], [data-testid="stDecoration"],
+[data-testid="stStatusWidget"], #MainMenu, footer {
+    display: none !important;
+}
+header[data-testid="stHeader"] { height: 0 !important; min-height: 0 !important; }
 [data-testid="stSidebar"], [data-testid="collapsedControl"] { display: none !important; }
 .block-container { padding: 0 !important; max-width: none !important; }
 #MainMenu, footer { visibility: hidden; }
