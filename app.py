@@ -114,7 +114,7 @@ st.markdown(
     <header class="portal-header">{logo_html}</header>
     <main class="portal-main">
         <h1>Bienvenido al Portal de Gestión de Reportes</h1>
-        <p class="intro">Selecciona el proyecto al que deseas ingresar para continuar con tus reportes y herramientas de trabajo.</p>
+        <p class="intro">Selecciona el proyecto al que deseas ingresar para continuar.</p>
         <section class="project-grid">
             <article class="project-card">
                 <div class="project-heading"><span class="project-icon">PE</span><h2>Proyecto Perú</h2></div>
