@@ -51,17 +51,17 @@ header[data-testid="stHeader"] { height: 0 !important; min-height: 0 !important;
                 #fcfcfd;
 }
 .portal-header {
-    position: sticky; top: 0; z-index: 10; height: 110px;
+    position: sticky; top: 0; z-index: 10; height: 260px;
     display: flex; align-items: center; justify-content: center;
     background: rgba(255,255,255,.88); backdrop-filter: blur(16px);
     border-bottom: 1px solid #f1e9e9;
 }
-.portal-header img { max-width: 240px; max-height: 78px; width: auto; height: auto; object-fit: contain; }
+.portal-header img { max-width: 720px; max-height: 234px; width: auto; height: auto; object-fit: contain; }
 .brand-fallback { font-size: 32px; font-weight: 800; letter-spacing: .14em; color: #b84d55; }
 .portal-main { max-width: 980px; margin: 0 auto; padding: 90px 24px 100px; text-align: center; position: relative; z-index: 1; }
 .eyebrow { display: inline-block; padding: 8px 15px; background: #fff2f3; border: 1px solid #ffe1e3; border-radius: 99px; color: #b85560; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .portal-main h1 { font-size: clamp(34px, 5vw, 56px); color: #263142 !important; margin: 22px 0 14px; letter-spacing: -.045em; font-weight: 750; }
-.intro { font-size: 17px; color: #78818e; margin: 0 auto 46px; max-width: 590px; line-height: 1.7; }
+.intro { text-align: center; font-size: 17px; color: #78818e; margin: 0 auto 46px; max-width: 590px; line-height: 1.7; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; text-align: left; }
 .project-card {
     background: rgba(255,255,255,.94); border: 1px solid #eee7e9;
@@ -78,8 +78,8 @@ header[data-testid="stHeader"] { height: 0 !important; min-height: 0 !important;
 .particle { position: fixed; z-index: -1; border-radius: 50%; background: rgba(221,104,115,.20); pointer-events: none; animation: drift var(--duration) ease-in-out infinite alternate; }
 @keyframes drift { from { transform: translate3d(0,0,0); opacity: .25; } to { transform: translate3d(var(--dx),var(--dy),0); opacity: .65; } }
 @media(max-width: 680px) {
-    .portal-header { height: 92px; }
-    .portal-header img { max-height: 65px; max-width: 190px; }
+    .portal-header { height: 200px; }
+    .portal-header img { max-height: 195px; max-width: 570px; }
     .portal-main { padding: 55px 20px 70px; }
     .project-grid { grid-template-columns: 1fr; gap: 18px; }
     .project-card { padding: 26px; }
@@ -113,7 +113,6 @@ st.markdown(
     {''.join(particulas)}
     <header class="portal-header">{logo_html}</header>
     <main class="portal-main">
-        <span class="eyebrow">Plataforma de gestión</span>
         <h1>Bienvenido al portal de proyectos</h1>
         <p class="intro">Selecciona el proyecto al que deseas ingresar para continuar con tus reportes y herramientas de trabajo.</p>
         <section class="project-grid">
@@ -130,7 +129,6 @@ st.markdown(
                 <a class="project-link" href="https://proyecto-italia.streamlit.app/" target="_blank" rel="noopener noreferrer">Ingresar a Italia ↗</a>
             </article>
         </section>
-        <p class="portal-note">Las credenciales se solicitan al ingresar al sistema correspondiente.</p>
     </main>
 </div>
 """,
