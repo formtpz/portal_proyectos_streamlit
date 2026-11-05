@@ -58,7 +58,7 @@ header[data-testid="stHeader"] { height: 0 !important; min-height: 0 !important;
 .brand-fallback { font-size: 32px; font-weight: 800; letter-spacing: .14em; color: #b84d55; }
 .portal-main { max-width: 980px; margin: 0 auto; padding: 28px 24px 60px; text-align: center; position: relative; z-index: 1; }
 .eyebrow { display: inline-block; padding: 8px 15px; background: #fff2f3; border: 1px solid #ffe1e3; border-radius: 99px; color: #b85560; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.portal-main h1 { font-size: clamp(34px, 5vw, 56px); color: #263142 !important; margin: 8px 0 12px; letter-spacing: -.045em; font-weight: 750; }
+.portal-main h1 { font-size: clamp(27px, 3.5vw, 42px); color: #263142 !important; margin: 8px 0 12px; letter-spacing: -.045em; font-weight: 750; }
 .portal-main > .intro { display: block; box-sizing: border-box; width: min(590px, calc(100vw - 40px)); max-width: 100%; margin: 0 auto 28px !important; padding: 0; text-align: center !important; font-size: 17px; color: #78818e !important; line-height: 1.7; }
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; text-align: left; }
 .project-card {
