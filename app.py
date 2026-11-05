@@ -67,7 +67,9 @@ header[data-testid="stHeader"] { height: 0 !important; min-height: 0 !important;
     transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
 }
 .project-card:hover { transform: translateY(-5px); border-color: #f1c5ca; box-shadow: 0 24px 65px rgba(65,47,52,.10); }
-.project-icon { display: inline-flex; align-items: center; justify-content: center; width: 58px; height: 58px; background: #fff3f3; border-radius: 17px; font-size: 28px; margin-bottom: 20px; }
+.project-heading { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+.project-icon { display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; width: 48px; height: 48px; background: #fff3f3; border-radius: 14px; font-size: 17px; font-weight: 750; color: #b84e59; }
+.project-heading h2 { margin: 0 !important; }
 .project-card h2 { font-size: 25px; margin: 0 0 10px; color: #293444 !important; letter-spacing: -.025em; }
 .project-card p { font-size: 15px; color: #7b8490 !important; line-height: 1.6; margin: 0 0 27px; min-height: 50px; }
 .project-link { display: inline-flex; align-items: center; justify-content: center; width: 100%; box-sizing: border-box; padding: 13px 18px; border-radius: 12px; background: #b84e59; color: white !important; text-decoration: none !important; font-weight: 650; transition: background .2s, transform .2s; }
@@ -115,14 +117,12 @@ st.markdown(
         <p class="intro">Selecciona el proyecto al que deseas ingresar para continuar con tus reportes y herramientas de trabajo.</p>
         <section class="project-grid">
             <article class="project-card">
-                <span class="project-icon">🇵🇪</span>
-                <h2>Proyecto Perú</h2>
+                <div class="project-heading"><span class="project-icon">PE</span><h2>Proyecto Perú</h2></div>
                 <p>Accede al sistema de gestión, reportes y seguimiento del proyecto Perú.</p>
                 <a class="project-link" href="https://tpzperu-6pbksbwa4qetjw2mkphmku.streamlit.app/" target="_blank" rel="noopener noreferrer">Ingresar a Perú ↗</a>
             </article>
             <article class="project-card">
-                <span class="project-icon">🇮🇹</span>
-                <h2>Proyecto Italia</h2>
+                <div class="project-heading"><span class="project-icon">IT</span><h2>Proyecto Italia</h2></div>
                 <p>Accede al sistema de gestión, reportes y seguimiento del proyecto Italia.</p>
                 <a class="project-link" href="https://proyecto-italia.streamlit.app/" target="_blank" rel="noopener noreferrer">Ingresar a Italia ↗</a>
             </article>
